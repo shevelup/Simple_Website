@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css?family=Aleo|Josefin+Sans:300,400,700&display=swap');
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Aleo', serif;
+   * {
+ 	box-sizing: border-box;
+ 	scroll-behavior: smooth;
+    }
+
+ body {
+	font: 300 16px/1.5 'Josefin Sans', sans-serif;
+	color: #3c3c3c;
+	margin: 0;
+	padding: 0;
+ }
+
+ h1,h2,h3,h4,h5,h6 {
+ 	font-weight: 900;
+
+
+ }
+
+.ba-container {
+	width: 1120px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.ba-header {
+	background: url(../images/1_bg.jpg) 50% no-repeat;
+	background-size: cover;
+	color: #fff;
+	min-height: 743px;
+	text-align: center;
+	position: relative;
+}
+
+.ba-header__block{
+padding: 18%;
+display: block;
+display: flex;
+flex-direction: column;
+margin: 0 auto;
+width: 70%;
+
+}
+
+.ba-header__title {
+display: block;
+margin: 0 auto;
+font-size: 1rem;
+}
+
+.ba-header__title h1{
+text-transform: uppercase;
+font-size: 4rem;
+font-weight: 500;
+margin-bottom:0;
+
+}
+
+.ba-header__title h3{
+margin-top:0;
+font-weight: 300;
+letter-spacing: 0.2em;
+margin-bottom: 20%;
+}
+
+.ba-header__search {
+background: #FFF;
+padding: 2px;
+display: block;
+margin: 0 auto;
+width: 90%;
+height: 60px;
+}
+
+.search-input {
+display: inline-block;
+float:left;
+width: 80%;
+height: 60px;
+padding: 0;
+border: none;
+padding-left: 15%;
+font: 300 1rem 'Josefin Sans', sans-serif;
+letter-spacing: 0.2em;
+
+}
+
+.search-button {
+float: right;
+width: 20%;
+height: 60px;
+display: inline-block;
+background-color: #5474fd;
+color: white;
+border:none;
+margin-left: 0;
+
+}
+.search-button {
+font-size: 1.1em;
+text-transform: uppercase;
+float: left;
+}
+.search-button img {
+display: inline-block;
+float: right;
+}
+.main__menu {
+background-color: #5474fd;
+display:block;
+background-size: cover;
+}
+.main__menu h1{
+display:inline-block;
+float: left;
+text-transform: uppercase;
+color: white;
+margin: 1.3% 0 ;
+}
+.menu-mine {
+text-align: center;
+width: 100%;
+color: #ffffff;
+margin: 0 auto;
+}
+
+
+.menu-mine ul {
+  list-style: none; /*убираем маркеры списка*/
+  margin: 0; /*убираем верхнее и нижнее поле, равное 1em*/
+  padding-left: 0; /*убираем левый отступ, равный 40px*/
+  float: right;
+
+}
+
+.menu-mine li {
+	display: inline-block;
+	margin: 1.7em 15px;
+	text-decoration: none;
+		}
+
+.menu-mine li a{
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight:bold;
+	color: white;
+}
+
+
+
+.menu-mine li a:hover{
+border-top: 3px solid red;
+
+}
+
+.ba-header__title {
+	font-size: 1.5rem;
+	width: 50%;
+	float:left;
+}
+.ba-header__scroll {
+	display: inline-block;
+	position: absolute;
+	bottom: 110px;
+	left: 50%;
+	margin-left: -11.5px;
+	color:white;
+	text-decoration: none;
+}
+
+
+.choose {
+padding: 7%;
+overflow: auto;
+background: url(../images/2_bg.jpg) 50% no-repeat;
+background-size: cover;
+color: #fff;
+
+}
+.choose__title{
+float: left;
+width: 50%;
+}
+
+.choose__title h3{
+font: 400 2.9rem 'Josefin Sans', sans-serif;
+
+}
+
+.choose__title p{
+text-align: left;
+margin-left: 0;
+width: 84%;
+text-align: justify;
+padding: 5% 10% 5% 0;
+}
+.choose__img {
+float: right;
+width: 50%;
+vertical-align: middle;
+}
+
+.choose__forest {
+float: left;
+}
+.choose__lake {
+padding: 2px;
+float: right;
+}
+
+.button-explore {
+background: rgb(73,107,254);
+background: -moz-linear-gradient(35deg, rgba(73,107,254,1) 40%, rgba(84,116,253,1) 40%);
+background: -webkit-linear-gradient(35deg, rgba(73,107,254,1) 40%, rgba(84,116,253,1) 40%);
+background: linear-gradient(35deg, rgba(73,107,254,1) 40%, rgba(84,116,253,1) 40%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#496bfe",endColorstr="#5474fd",GradientType=1);
+width: 230px;
+height: 60px;
+margin-top: 1.5em;
+margin-left: 0px;
+color: white;
+text-transform: uppercase;
+border:none;
+}
+
+
+.icons {
+padding-top: 2%;
+height: 5%;
+background-color: #333333;
+color: #FFF;
+display: flex;
+justify-content:space-around;
+}
+
+
+.icons__arc {
+color: #FFF;
+width: 80%;
+margin: 0 auto;
+}
+.icons__arc img {
+
+}
+.icons-element{
+display: inline-block;
+width: 30%;
+text-align:center;
+}
+
+.icons__book {
+margin-left: 5%;
+}
+.icons__select {
+margin-left: 5%;
+}
+.icons__searc {
+margin-left: -5%;
+}
+
+.madrid1 {
+height:90vh;
+background: url(../images/3_bg.jpg) 50% no-repeat;
+background-size: cover;
+color: #fff;
+}
+
+
+.madrid2 {
+height:90vh;
+background: url(../images/3a_bg.jpg) 50% no-repeat;
+background-size: cover;
+color: #fff;
+}
+ .madrid1-container {
+width: 1120px;
+height: 100%;
+margin:0 auto;
+padding: 10px 0;
+}
+.madrid2-container {
+width: 1120px;
+height: 100%;
+margin:0 auto;
+padding: 10px 0;
+}
+
+.madrid1__title {
+display: block;
+padding: 30px;
+height: 370px;
+width: 550px;
+background-color: rgba(34, 32, 33, 0.8);
+margin-top: 20%;
+}
+
+.madrid1__title h3 {
+text-transform: uppercase;
+font: 400 20px/1.7 'Josefin Sans', sans-serif;
+}
+
+.madrid1__title p {
+text-align: justify;
+margin:0;
+}
+
+.madrid2__title {
+display: block;
+padding: 30px;
+height: 370px;
+width: 550px;
+background-color: rgba(34, 32, 33, 0.8);
+margin-top: 20%;
+margin-left: 40%
+}
+.madrid2__title h3 {
+text-transform: uppercase;
+font: 400 20px/1.7 'Josefin Sans', sans-serif;
+}
+
+.madrid2__title p {
+text-align: justify;
+margin:0;
+}
+.madrid-button {
+border: none;
+display: block;
+height: 60px;
+width: 230px;
+margin: 40px 0;
+background: rgb(73,107,254);
+background: -moz-linear-gradient(35deg, rgba(73,107,254,1) 40%, rgba(84,116,253,1) 40%);
+background: -webkit-linear-gradient(35deg, rgba(73,107,254,1) 40%, rgba(84,116,253,1) 40%);
+background: linear-gradient(35deg, rgba(73,107,254,1) 40%, rgba(84,116,253,1) 40%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#496bfe",endColorstr="#5474fd",GradientType=1);
+}
+
+
+.tourist {
+height:60vh;
+background: url(../images/4_bg.jpg) 50% no-repeat;
+background-size: cover;
+color: #fff;
+padding: 5%;
+}
+.tourist-container{
+width: 1120px;
+height: 100%;
+margin: 0 auto;
+}
+.tourist-container h2 {
+display: block;
+text-align: center;
+padding: 2%;
+font: 400 36px/1.7 'Josefin Sans', sans-serif;
+}
+
+.tourist__block {
+display: flex;
+margin: 0 auto;
+background-color: #333333;
+}
+
+.block__image {
+background: url(../images/4_img.jpg) 50% no-repeat;
+background-size: cover;
+display: inline-block;
+width: 40%;
+
+}
+
+.block__title{
+display: inline-block;
+width: 65%;
+padding: 35px 55px ;
+}
+
+.footer {
+background: #232323;
+height: 10%;
+padding: 2%;
+color: #FFF;
+}
+.footer h2, p {
+text-align: center;
+padding: 0;
+}
+
+
+.foot-icons img{
+display: block;
+margin: 0 auto;
+}
