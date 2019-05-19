@@ -15,8 +15,6 @@ font-family: 'Aleo', serif;
 
  h1,h2,h3,h4,h5,h6 {
  	font-weight: 900;
-
-
  }
 
 .ba-container {
@@ -230,41 +228,41 @@ text-transform: uppercase;
 border:none;
 }
 
-
 .icons {
-padding-top: 2%;
-height: 5%;
 background-color: #333333;
-color: #FFF;
+
+}
+
+.ico-wrap {
 display: flex;
-justify-content:space-around;
-}
-
-
-.icons__arc {
+height: 5%;
 color: #FFF;
-width: 80%;
-margin: 0 auto;
+justify-content: space-between;
+padding: 130px 50px 0;
 }
-.icons__arc img {
 
-}
 .icons-element{
-display: inline-block;
-width: 30%;
-text-align:center;
+  font-size: 2em;
+  padding: 15px 50px 0 0;
+  color: #fff;
+  position: relative;
 }
 
-.icons__book {
-margin-left: 5%;
-}
-.icons__select {
-margin-left: 5%;
-}
-.icons__searc {
-margin-left: -5%;
+ .icons-element + .icons-element:after{
+  content: '';
+  position: absolute;
+  width: 450px;
+  height: 400px;
+  border: 2px dotted #fff;
+  border-color: #fff transparent transparent;
+  border-radius: 50%;
+  right: 70%;
+  top: -30%
 }
 
+ .icons-element p{
+ margin-left: -60px;
+ }
 .madrid1 {
 height:90vh;
 background: url(../images/3_bg.jpg) 50% no-repeat;
@@ -331,6 +329,7 @@ margin:0;
 }
 .madrid-button {
 border: none;
+color:white;
 display: block;
 height: 60px;
 width: 230px;
